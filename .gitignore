@@ -1,0 +1,31 @@
+# -----------------------------
+# Git Ignore for QuickCart Monorepo
+# -----------------------------
+
+# Node (Angular)
+QuickCart FE/node_modules/
+QuickCart FE/dist/
+QuickCart FE/.angular/
+QuickCart FE/.env
+QuickCart FE/.env.*
+
+# .NET (Backend)
+QuickCart BE/bin/
+QuickCart BE/obj/
+QuickCart BE/.vs/
+QuickCart BE/*.user
+QuickCart BE/*.suo
+
+# Build & Publish folders
+QuickCart BE/wwwroot/
+QuickCart BE/publish/
+
+# Logs
+*.log
+
+# System/OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
